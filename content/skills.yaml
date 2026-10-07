@@ -1,0 +1,66 @@
+heading: "Skills"
+
+# Optional line under the heading.
+blurb: "Tools I reach for most often, shaded by how well I know them."
+
+# The colour key. Delete a label to drop it from the legend; delete the whole
+# `legend:` block to hide the key entirely.
+legend:
+  proficient: "Proficient"
+  working: "Working knowledge"
+  beginner: "Basic familiarity"
+
+# Each item is either a plain string — which means `working` — or a
+# `{ name, level }` pair. Levels: proficient (green), working (blue),
+# beginner (grey).
+groups:
+  - name: "Languages"
+    items:
+      - { name: "Python", level: proficient }
+      - { name: "SQL", level: proficient }
+      - { name: "Bash", level: proficient, icon: "gnubash" }
+      - { name: "C/C++", level: proficient }
+      - { name: "Java", level: working, icon: "openjdk" }
+      - { name: "HTML/CSS", level: working, icon: "html5" }
+      - { name: "JavaScript", level: working }
+
+  - name: "Data"
+    items:
+      - { name: "PostgreSQL", level: proficient }
+      - { name: "ETL Pipeline", level: proficient }
+      - { name: "PySpark", level: proficient, icon: "apachespark" }
+      - { name: "Power BI", level: proficient }
+      - { name: "DAX", level: working }
+      - { name: "Power Query", level: working }
+      - { name: "MySQL", level: working }
+      - { name: "MongoDB", level: working }
+      - { name: "Databricks", level: working }
+
+  - name: "ML / AI"
+    items:
+      - { name: "NumPy", level: proficient }
+      - { name: "Pandas", level: proficient }
+      - { name: "Matplotlib", level: proficient }
+      - { name: "Seaborn", level: proficient }
+      - { name: "Scikit-learn", level: working }
+      - { name: "FAISS", level: working, icon: "meta" }
+      - { name: "PyTorch", level: working }
+      - { name: "TensorFlow", level: working }
+      - { name: "DBSCAN", level: working }
+
+  - name: "Tools"
+    items:
+      - { name: "Docker", level: proficient }
+      - { name: "Terraform", level: proficient }
+      - { name: "Ansible", level: proficient }
+      - { name: "Git", level: proficient }
+      - { name: "GitHub Actions", level: working }
+      - { name: "Weights & Biases", level: working, icon: "weightsandbiases" }
+      - { name: "MLflow", level: working }
+
+# The GitHub contribution strip under the skill groups. The squares are
+# regenerated on every deploy; only these settings live here. Delete the block
+# and the strip disappears.
+activity:
+  label: "Last year on GitHub"
+  months: 12

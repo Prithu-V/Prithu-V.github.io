@@ -1,0 +1,40 @@
+# The opening screen: name and title.
+# `tagline`, `location` and `actions` are all optional — delete what you don't need.
+
+name: "Prithu Verma"
+title: "Data Engineering & Research"
+
+tagline: >
+ Computer Science graduate student with experience in Python, SQL, 
+ machine learning, and data engineering, building end-to-end ETL pipelines,
+ relational databases, analytical dashboards, and ML systems. Experienced in working with
+ large-scale datasets, statistical analysis, feature engineering, and unsupervised learning, 
+ with a focus on turning complex data into measurable insights.
+
+location: "📍 New Delhi, India"
+
+# A file in public/ or a full URL. Delete the line and the hero goes text-only.
+photo: "/prithu.png"
+# Optional. Defaults to `name`, which is what you want for a portrait.
+# photo_alt: "Arnav Verma"
+
+# Credential badges, shown under the portrait: the badge art with its name
+# beneath it. `href` makes the whole badge a link to the credential itself.
+# Keep `label` short — it sits under the art, in a column as wide as the photo.
+# Delete the whole `badges:` block and none render.
+# badges:
+#   - image: "/logos/ckad.png"
+#     label: "Certified Kubernetes Application Developer"
+#     href: "https://www.credly.com/badges/f5646465-5d5c-4567-bf56-23a64b9b6e54/public_url"
+
+# Optional butto  ns under the tagline. Delete the whole `actions:` block to hide them.
+actions:
+  - label: "View My Work"
+    href: "#projects"
+    variant: "primary"
+  - label: "Get in Touch"
+    href: "#contact"
+    variant: "secondary"
+  - label: "View Resume"
+    href: "/documents/resume.pdf"
+    variant: "secondary"

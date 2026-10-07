@@ -1,0 +1,46 @@
+heading: "Research"
+
+blurb: "Papers and preprints. Currently submitted, under review or published"
+
+# Buttons at the foot of the section. Naming a `social` borrows that platform's
+# icon and gives you "View <Name>" for free; add `label:` to say something else.
+# Delete the block and no buttons render.
+actions:
+  - social: huggingface
+    href: "https://huggingface.co/"
+  - social: google_scholar
+    href: "https://scholar.google.com/"
+
+# Bolded wherever it appears in an author list. It has to match an entry in
+# `authors` exactly, so it follows the same "Surname, Initial." style.
+highlight_author: "Verma, P."
+
+items:
+  # `status` carries the whole truth about where a paper stands. Naming the
+  # venue while a paper is out for review is only safe if that venue's
+  # anonymity policy allows it, which is why these say "A* conference" instead.
+  # Swap in the venue once a paper is accepted; nothing else needs to change.
+  #
+  # `links` is left out entirely for now — a button appears only for a link
+  # that is actually filled in, so there are no dead buttons.
+  - title: >
+      A Hybrid Unsupervised Learning Framework for Multi-Type Anomaly Detection in Database Query Logs
+    authors:
+      - "Verma, P."
+      - "Verma, A."
+    status: "Under Review IEEE IndiCon 2026"
+    # Colours the dot on the pill: accepted / published (green), under_review
+    # (amber), preprint (blue), in_progress (grey). Leave it out for a plain
+    # grey pill with no dot.
+    stage: under_review
+
+  - title: >
+      Multi-Dimensional Generalization Evaluatation of Large Language Models for Causal Reasoning Tasks
+    authors:
+      - "Verma, A."
+      - "Iqbal, F."
+      - "Verma, P."
+      - "Das, S"
+      - "Ray Choudhury, S."
+    status: "Under review at ACL-ARR 2026"
+    stage: under_review

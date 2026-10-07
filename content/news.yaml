@@ -1,0 +1,23 @@
+# The "what's new" line on the hero.
+#
+# Newest first. One item shows at a time and they fade through in order; with a
+# single item nothing rotates at all. Delete `items` — or the whole file's
+# contents down to `items: []` — and the line disappears from the page.
+
+# The small word in front of the line. Try "Latest", "News", "Now".
+label: "Latest"
+
+# Seconds each item stays up before the next one fades in. Ignored when there
+# is only one item.
+interval: 3
+
+items:
+  - text: "Submitted my paper on anomaly detection in database query logs to IEEE INDICON 2026"
+    # Optional. Makes the line a link.
+    href: "#research"
+
+  - text: "Co-authored paper on LLM causal reasoning under review at ACL ARR 2026"
+    href: "#research"
+
+  - text: "New project: analysing 12 million companies with PySpark on Databricks"
+    href: "/projects/databricks-company-analysis"

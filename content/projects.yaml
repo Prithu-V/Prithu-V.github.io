@@ -1,0 +1,73 @@
+heading: "Projects"
+
+blurb: "A few things I've built and written up."
+
+# Buttons at the foot of the section. Naming a `social` borrows that platform's
+# icon and gives you "View <Name>" for free; add `label:` to say something else.
+# Delete the block and no buttons render.
+actions:
+  - label: "All projects"
+    href: "/projects"
+  - social: github
+    href: "https://github.com/namesarnav"
+  - social: huggingface
+    href: "https://huggingface.co/namesarnav"
+
+# What the buttons on a project say. Delete a line to fall back to its default.
+labels:
+  demo: "Try it here"
+  code: "Code"
+  read_more: "Read more"
+
+# How many rows show before the "View more" button appears.
+# Set to 0 to always show everything.
+initial_count: 5
+
+items:
+  # `slug` is the URL for the detail page: /projects/<slug>. Keep it unique.
+  - slug: "databricks-company-analysis"
+    title: "Company Data Analysis on Databricks"
+    description: >
+      Nearly 12 million company records from People Data Labs, processed with
+      PySpark and Spark SQL on Databricks and presented in a Databricks dashboard:
+      11.7M companies across 149 industries, broken down by country and size.
+    thumbnail: "/projects/databricks-company-analysis.png"
+    tags: ["PySpark", "Spark SQL", "Databricks", "Pandas"]
+    links:
+      code: "https://lnkd.in/getxtPNN"
+
+## ------------------------------------------------------------------------------------------- ##
+  - slug: "health-insurance-claims"
+    title: "Health Insurance Claim Analysis"
+    description: >
+      750,000+ synthetic healthcare records generated with Faker, pushed through an
+      ETL pipeline into 6 normalized MySQL tables, then queried for trends in claim
+      costs, approval rates, providers and patient utilization.
+    thumbnail: "/projects/health-insurance-claims.png"
+    tags: ["Python", "SQL", "SQLAlchemy", "ETL Pipeline"]
+    links:
+      code: "https://lnkd.in/g8G96vX7"
+
+## ------------------------------------------------------------------------------------------- ##
+  - slug: "stock-portfolio"
+    title: "Stock Portfolio Analytics"
+    description: >
+      A 6-table PostgreSQL schema fed by a yfinance ETL pipeline, with 15+ advanced SQL
+      queries computing returns, volatility, Sharpe ratio and position-level P&L,
+      surfaced through an interactive Streamlit dashboard.
+    thumbnail: "/projects/stock-portfolio.png"
+    tags: ["Python", "PostgreSQL", "ETL Pipeline", "Streamlit", "yfinance"]
+    links:
+      code: "https://lnkd.in/gH8UkEGz"
+
+## ------------------------------------------------------------------------------------------- ##
+  - slug: "business-analysis-dashboards"
+    title: "Business Analysis Dashboards"
+    description: >
+      Three end-to-end Power BI dashboards across banking, toy retail and superstore
+      data: 30+ interactive visuals, reusable DAX measures, and drill-throughs that
+      take you from headline KPIs to the detail behind them.
+    thumbnail: "/projects/business-analysis-dashboards.png"
+    tags: ["Power BI", "DAX", "Power Query"]
+    # links:
+    #   code: "https://github.com/PrithuVerma/<repo>"
