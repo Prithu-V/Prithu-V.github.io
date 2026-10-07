@@ -9,7 +9,7 @@ actions:
   - label: "All projects"
     href: "/projects"
   - social: github
-    href: "https://github.com/namesarnav"
+    href: "https://github.com/Prithu-V"
   - social: huggingface
     href: "https://huggingface.co/namesarnav"
 
@@ -46,7 +46,7 @@ items:
     thumbnail: "/projects/health-insurance-claims.png"
     tags: ["Python", "SQL", "SQLAlchemy", "ETL Pipeline"]
     links:
-      code: "https://lnkd.in/g8G96vX7"
+      code: "https://github.com/Prithu-V/Medical_Insurance"
 
 ## ------------------------------------------------------------------------------------------- ##
   - slug: "stock-portfolio"
@@ -58,7 +58,7 @@ items:
     thumbnail: "/projects/stock-portfolio.png"
     tags: ["Python", "PostgreSQL", "ETL Pipeline", "Streamlit", "yfinance"]
     links:
-      code: "https://lnkd.in/gH8UkEGz"
+      code: "https://github.com/Prithu-V/Stock-Portfolio"
 
 ## ------------------------------------------------------------------------------------------- ##
   - slug: "business-analysis-dashboards"
